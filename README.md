@@ -20,6 +20,8 @@ Endpoint | HTTP Method | Result
 
 o Payload Details
 
+Both getUrl and scrape function uses the same request payload.
+
 REQUEST:
 ```json
     {
@@ -32,6 +34,7 @@ REQUEST:
 ```
 RESPONSE:
 
+Here is an example of scrape function response:
 ```json
 {
     "1": {
@@ -91,6 +94,10 @@ RESPONSE:
 }
 ```
 
+And here is an example of getUrl function:
+```str
+"https://www.detik.com/search/searchall?query=contoh&page=1&sortby=&sorttime=0&fromdatex=&todatex=&hitperpages=9&siteid=29"
+```
 DATA DESCRIPTION:
 Key | Type | Description
 --- | --- | ---
