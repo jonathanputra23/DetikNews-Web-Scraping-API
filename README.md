@@ -109,10 +109,15 @@ toDate | date | Search filter to date(format YYYY-MM-DD).
 ## Usage
 o Requirements:
 - Python
+- Django
 - Django Rest Framework
 - BeautifulSoup
 - Requests
+- Django Rest Swagger
 - Swagger
+- drf yasg
+- pyyaml
+
 
 o How to setup the API
 
